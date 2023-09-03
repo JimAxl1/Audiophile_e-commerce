@@ -1,0 +1,77 @@
+.containerInput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label, .labelError{
+    font-family: Manrope;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0214rem;
+}
+
+.label{
+    color: #000;
+}
+
+.labelError{
+    color: #CD2C2C;
+}
+
+.error{
+    border: 0.2rem solid red;
+}
+
+.errorText{
+    color: #CD2C2C;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.0214rem;
+}
+
+.input, .error{
+    padding: 1.6rem 2.4rem;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.025rem;
+    border-radius: 0.8rem;
+    width: 100%;
+    margin-top: 0.9rem;
+    margin-bottom: 2.4rem;
+}
+
+.input{
+    color: #000;
+    border: 0.1rem solid #CFCFCF;
+}
+
+@media screen and (min-width: 768px){
+    .containerInput{
+        width: 48%;
+    }
+
+    .containerInput{
+        &.address{
+          width: 100%;  
+        }
+    }
+}
+
+@media screen and (min-width: 992px){
+    input[type='text']:focus{
+        border: none;
+        outline: 0.1rem solid #D87D4A;
+        cursor: pointer;
+    }
+}

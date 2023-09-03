@@ -1,0 +1,194 @@
+.container{
+    color: #FFFFFF;
+    padding: 5.2rem 2.4rem 3.8rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+    position: relative;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    width: 10.1rem;
+    background-color: #D87D4A;
+    top: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer{
+    background-color: #101010;
+}
+
+.logoCompany{
+    width: 14.3rem;
+}
+
+.listLink{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    align-items: center;
+    gap: 1.6rem;
+    margin: 0rem;
+}
+
+.link{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.description, .copyright{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    opacity: 0.5;
+    margin: 0rem;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+.containerRRSS{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.logoRRSS{
+    width: 2.4rem;
+    height: 2.4rem;
+    &.facebook{
+        background-image: url("../../assets/shared/desktop/icon-facebook.svg");
+    }
+    &.twitter{
+        background-image: url("../../assets/shared/desktop/icon-twitter.svg");
+        background-repeat: no-repeat; 
+        background-position: center center;
+    }
+    &.instagram{
+        background-image: url("../../assets/shared/desktop/icon-instagram.svg");
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+        padding: 6rem 4rem 4.6rem 4rem;
+        .logoCompany{
+            grid-row: 1 / 2;
+            grid-column: 1 / 3;
+        }
+        .containerLink{
+            grid-row: 2 / 3;
+            grid-column: 1 / 3;
+        }
+        .description{
+            grid-row: 3 / 4;
+            grid-column: 1 / 3;
+        }
+        .copyright{
+            grid-row: 4 / 5;
+            grid-column: 1 / 2;
+        }
+        .containerRRSS{
+            grid-row: 4 / 5;
+            grid-column: 2 / 3;
+            justify-self: end;
+        }
+    }
+
+    .container::before{
+        transform: translateX(0);
+        left: 6rem;
+    }
+
+    .listLink{
+        flex-direction: row;
+        gap: 3.4rem;
+    }
+
+    .description, .copyright{
+        text-align: left;
+    }
+
+    .other{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 100%;
+        max-width: 115.8rem;
+        margin: auto;
+        padding: 7.5rem 2.4rem 4.8rem 2.4rem;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        .logoCompany{
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+        }
+        .containerLink{
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
+        }
+        .description{
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            max-width: 54rem;
+        }
+        .copyright{
+            grid-row: 3 / 4;
+            grid-column: 1 / 2;
+        }
+        .containerRRSS{
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+            align-self: flex-end;
+        }
+    }
+
+    .container::before{
+        left: 4.5rem;
+    }
+
+    .link:hover{
+        color: #D87D4A;
+    }
+
+    .logoRRSS{
+        &.facebook:hover{
+            background-image: url("../../assets/shared/desktop/icon-facebook-hover.svg");
+        }
+        &.twitter:hover{
+            background-image: url("../../assets/shared/desktop/icon-twitter-hover.svg");
+        }
+        &.instagram:hover{
+            background-image: url("../../assets/shared/desktop/icon-instagram-hover.svg");
+        }
+    }
+}

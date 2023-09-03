@@ -1,0 +1,108 @@
+.container {
+  margin: 0 2.4rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.orange {
+  font-size: 2.8rem;
+  color: #D87D4A;
+  background-color: transparent;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0rem 4rem;
+  }
+  .slogan, .orange {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.1429rem;
+  }
+  .slogan, .text {
+    width: 80%;
+    text-align: center;
+  }
+  .containerText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 100%;
+    max-width: 115.8rem;
+    margin: auto;
+    padding: 2.4rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .picture {
+    width: 48.64%;
+  }
+  .containerText {
+    width: 44.5rem;
+  }
+  .slogan, .orange, .text {
+    text-align: start;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Aside.module.css.map */

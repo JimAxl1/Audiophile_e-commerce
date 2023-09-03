@@ -1,0 +1,311 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+}
+
+.header{
+    background: url('../../assets/home/mobile/image-header.jpg') center center / contain no-repeat;
+    background-color: #191919;
+    padding: 17.3rem 2.4rem 11.2rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .productName{
+        margin: 0.2rem 0rem 1.4rem 0rem;
+    }
+    .link{
+        margin-top: 1.8rem;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.new{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1rem;
+    opacity: 0.5;
+}
+
+.productName{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0.1286rem;
+    text-transform: uppercase;
+}
+
+.text{
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    opacity: 0.75;
+}
+
+.link{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    background-color: rgba(216, 125, 74, 1);
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    width: 16rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.product1{
+    border-radius: 0.8rem;
+    background: #D87D4A;
+    margin: 0rem 2.4rem;
+    padding: 5.5rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    background-image: url('../../assets/home/desktop/pattern-circles.svg');
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    background-position: 50% -130px;
+    .product1Info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productName{
+        margin: 0rem;
+    }
+    .link{
+        background-color: #000000;
+    }
+}
+
+.product2{
+    background-image: url('../../assets/home/mobile/image-speaker-zx7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.8rem;
+    margin: 0rem 2.4rem;
+    padding: 0rem 2.4rem 3.5rem 2.4rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    .productName{
+        color: #000000;
+        font-size: 2.8rem;
+        line-height: normal;
+        letter-spacing: 0.2rem;
+    }
+    .link{
+        border: 0.1rem solid #000;
+        background-color: transparent;
+        color: #000000;
+    }
+}
+
+.product3{
+    margin: 0rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    gap: 2.4rem;
+    .container{
+        border-radius: 0.8rem;
+        padding: 4rem 2.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #F1F1F1;
+        gap: 3.2rem;
+    }
+    .productName{
+        color: #000000;
+        font-size: 2.8rem;
+        line-height: normal;
+        letter-spacing: 0.2rem;        
+        margin: 0rem;
+    }
+    .link{
+        border: 0.1rem solid #000;
+        background-color: transparent;
+        color: #000000;    
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        gap: 9.6rem;
+    }
+
+    .header{
+        background-image: url('../../assets/home/tablet/image-header.jpg');
+        background-color: #191919;
+        height: 72.9rem;
+        .productName{
+            width: 39.6rem;
+        }
+        .text{
+            width: 35rem;
+        }
+    }
+
+    .productName{
+        font-size: 5.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5.8rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .product1{
+        margin: 0rem 4rem;
+        .productName{
+            width: 25rem;
+            text-align: center;
+        }
+        .text{
+            width: 35rem;
+        }
+    }
+
+    .product2{
+        padding-left: 6.2rem;
+        height: 32rem;
+        margin: 0rem 4rem;
+        background-image: url('../../assets/home/tablet/image-speaker-zx7.jpg');
+    }
+
+    .product3{
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 4rem;
+        gap: 1.1rem;
+        .container{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3.2rem;
+            padding-left: 4rem;
+        }
+        .productName{
+            margin: 0rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px){
+    .main{
+        gap: 20rem;
+    }
+
+    .categorys{
+        margin: 0rem auto;
+    }
+
+    .header{
+        background: url('../../assets/home/desktop/image-hero.jpg') center center / contain no-repeat;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #191919;
+        .section{
+            width: 100%;
+            max-width: 115.8rem;
+            align-items: flex-start;
+            margin: auto;
+            padding: 2.4rem;
+        }
+        .new, .productName, .text{
+            text-align: start;
+        }
+        .link:hover{
+            background-color: #FBAF85;
+        }
+    }
+
+    .article{
+        width: 100%;
+        max-width: 115.8rem;
+        margin: auto;
+        padding: 0rem 2.4rem;
+        gap: 4.8rem;
+        margin-top: -3.2rem;
+    }
+    
+    .product1, .product2, .product3{
+        margin: 0rem;
+    }
+
+    .product1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+        overflow: hidden;
+        padding: 3.35rem 0rem;
+        background-position: -26rem -9rem;
+        .product1Info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            .productName, .text{
+                text-align: start;
+            }  
+            .text{
+                margin: 2.4rem 0rem 4rem 0rem;
+            }
+            .link:hover{
+                background-color: #4C4C4C;
+            }
+        }
+    }
+
+    .product2{
+        background-image: url('../../assets/home/desktop/image-speaker-zx7.jpg');
+        padding-left: 9.5rem;
+    }
+
+    .product3{
+        gap: 3rem;
+        .container{
+            padding-left: 9.5rem;
+        }
+    }
+
+    .product2, .product3{
+        .link:hover{
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.addCart{
+    width: 16rem;
+    height: 4.8rem;
+    background-color: #D87D4A;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.alert{
+    position: fixed;
+    background-color: #D87D4A;
+    top: 2rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    z-index: 2;
+    display: none;
+}
+
+.image{
+    width: 5rem;
+    height: 5rem;
+}
+
+@media screen and (min-width: 992px){
+    .addCart:hover{
+        cursor: pointer;
+        background-color: #FBAF85;
+    }
+}

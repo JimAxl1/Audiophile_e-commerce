@@ -1,0 +1,142 @@
+.container{
+    border-radius: 0.8rem;
+    background-color: #FFF;
+    padding: 2.4rem;
+}
+
+.title{
+    color: #000;
+    font-family: Manrope;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    margin: 0rem;
+}
+
+.subtitle{
+    color: #D87D4A;
+    font-family: Manrope;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.0929rem;
+}
+
+.containerRadio{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.labelRadio{
+    border-radius: 0.8rem;
+    border: 0.1rem solid #CFCFCF;
+    background-color: #FFF;;
+    padding: 1.8rem 1.6rem;
+    position: relative;
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.025rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.radio{
+    accent-color: #D87D4A;
+    margin: 0rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.label{
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0214rem;
+}
+
+.textCashDelivery{
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    opacity: 0.5;
+}
+
+.containerDeliveryCash{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1.6rem;
+        .title{
+            font-size: 3.2rem;
+        }
+    }
+
+    .title, .subtitle{
+        display: block;
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+
+    .containerRadio{
+        width: 47%;
+    }
+
+    .containerEmoney{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1.6rem;
+        justify-content: space-between;
+    }
+
+    .paymentMethod{
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 65.765%;
+        max-width: 73rem;
+        margin: 0rem 0rem 11.7rem 0rem;
+        padding: 5.4rem 4.8rem 4.8rem 4.8rem;
+    }
+
+    .containerRadio{
+        .labelRadio:hover{
+            border: 0.1rem solid #D87D4A;
+            cursor: pointer;
+        }
+    }
+
+    .radio:hover{
+        cursor: pointer;
+    }
+}

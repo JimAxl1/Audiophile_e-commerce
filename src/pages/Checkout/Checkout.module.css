@@ -1,0 +1,37 @@
+.main {
+  background-color: #FAFAFA;
+  position: relative;
+  top: 8.9rem;
+}
+
+.container {
+  padding: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2.4rem 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    max-width: 115.8rem;
+    margin: auto;
+    padding: 0rem 2.4rem 2.4rem 2.4rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=Checkout.module.css.map */

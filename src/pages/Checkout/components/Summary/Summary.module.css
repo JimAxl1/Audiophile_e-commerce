@@ -1,0 +1,163 @@
+.section {
+  margin: 3.2rem 0rem 9.7rem 0rem;
+  border-radius: 0.8rem;
+  padding: 3.2rem 2.4rem;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3.2rem;
+}
+
+.title {
+  color: #000;
+  font-family: Manrope;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1286rem;
+  margin: 0rem;
+}
+
+.sectionItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.4rem;
+}
+
+.containerItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.containerItem .quantity {
+  color: #000;
+  text-align: right;
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  opacity: 0.5;
+}
+
+.containerPrices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.8rem;
+}
+
+.span, .spanGrandTotal {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.propertie {
+  color: #000;
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.value, .valueOrange {
+  font-family: Manrope;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.value {
+  color: #000;
+}
+
+.valueOrange {
+  color: #D87D4A;
+}
+
+.spanGrandTotal {
+  margin-top: 2.4rem;
+}
+
+.pay {
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  background-color: #D87D4A;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+  border: none;
+}
+
+.pay:disabled {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    margin: 3.2rem 0rem 11.6rem 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    margin: 0;
+    max-width: 35rem;
+    width: 31.53%;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    padding: 3.2rem;
+  }
+  .pay:hover {
+    cursor: pointer;
+    background-color: #FBAF85;
+  }
+}
+/*# sourceMappingURL=Summary.module.css.map */

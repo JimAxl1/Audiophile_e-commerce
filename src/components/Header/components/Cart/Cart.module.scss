@@ -1,0 +1,118 @@
+.container{
+    border-radius: 0.8rem;
+    background: #FAFAFA;
+    margin: 2.4rem 2.4rem 15rem 2.4rem;
+    padding: 3rem 2.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    overflow: visible;
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text{
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1286rem;
+    margin: 0rem;
+}
+
+.removeAll{
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-decoration-line: underline;
+    opacity: 0.5;
+}
+
+.link{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    background-color: #D87D4A;
+    width: 100%;
+    padding: 1.5rem;
+    text-decoration: none;
+    border: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    .text{
+        text-align: center;
+    }
+}
+
+.textTotal{
+    color: #000;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    opacity: 0.5;
+    margin: 0rem;
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        width: 37.7rem;
+        float: right;
+        margin: 2.4rem 4rem 15rem 4rem;;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .removeAll:hover{
+        color: #D87D4A;
+        cursor: pointer;
+    }
+
+    .link:hover{
+        background-color: #FBAF85;
+    }
+
+    .modalContainer{
+        width: 100%;
+        max-width: 115.8rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0rem 2.4rem;
+    }
+
+    .container{
+        margin: 3.2rem 0rem 15rem 0rem;
+    }
+}

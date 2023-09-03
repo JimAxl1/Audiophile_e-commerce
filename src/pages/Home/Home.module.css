@@ -1,0 +1,402 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12rem;
+}
+
+.header {
+  background: url("../../assets/home/mobile/image-header.jpg") center center/contain no-repeat;
+  background-color: #191919;
+  padding: 17.3rem 2.4rem 11.2rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header .productName {
+  margin: 0.2rem 0rem 1.4rem 0rem;
+}
+
+.header .link {
+  margin-top: 1.8rem;
+}
+
+.header .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new {
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1rem;
+  opacity: 0.5;
+}
+
+.productName {
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: 0.1286rem;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  opacity: 0.75;
+}
+
+.link {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1rem;
+  background-color: #d87d4a;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  width: 16rem;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.4rem;
+}
+
+.product1 {
+  border-radius: 0.8rem;
+  background: #D87D4A;
+  margin: 0rem 2.4rem;
+  padding: 5.5rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../assets/home/desktop/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-size: cover;
+  background-position: 50% -130px;
+}
+
+.product1 .product1Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product1 .productName {
+  margin: 0rem;
+}
+
+.product1 .link {
+  background-color: #000000;
+}
+
+.product2 {
+  background-image: url("../../assets/home/mobile/image-speaker-zx7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0.8rem;
+  margin: 0rem 2.4rem;
+  padding: 0rem 2.4rem 3.5rem 2.4rem;
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product2 .productName {
+  color: #000000;
+  font-size: 2.8rem;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+}
+
+.product2 .link {
+  border: 0.1rem solid #000;
+  background-color: transparent;
+  color: #000000;
+}
+
+.product3 {
+  margin: 0rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: flex;
+      -ms-flex-align: flex;
+          align-items: flex;
+  gap: 2.4rem;
+}
+
+.product3 .container {
+  border-radius: 0.8rem;
+  padding: 4rem 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #F1F1F1;
+  gap: 3.2rem;
+}
+
+.product3 .productName {
+  color: #000000;
+  font-size: 2.8rem;
+  line-height: normal;
+  letter-spacing: 0.2rem;
+  margin: 0rem;
+}
+
+.product3 .link {
+  border: 0.1rem solid #000;
+  background-color: transparent;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    gap: 9.6rem;
+  }
+  .header {
+    background-image: url("../../assets/home/tablet/image-header.jpg");
+    background-color: #191919;
+    height: 72.9rem;
+  }
+  .header .productName {
+    width: 39.6rem;
+  }
+  .header .text {
+    width: 35rem;
+  }
+  .productName {
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.8rem;
+    letter-spacing: 0.2rem;
+  }
+  .product1 {
+    margin: 0rem 4rem;
+  }
+  .product1 .productName {
+    width: 25rem;
+    text-align: center;
+  }
+  .product1 .text {
+    width: 35rem;
+  }
+  .product2 {
+    padding-left: 6.2rem;
+    height: 32rem;
+    margin: 0rem 4rem;
+    background-image: url("../../assets/home/tablet/image-speaker-zx7.jpg");
+  }
+  .product3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0rem 4rem;
+    gap: 1.1rem;
+  }
+  .product3 .container {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3.2rem;
+    padding-left: 4rem;
+  }
+  .product3 .productName {
+    margin: 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    gap: 20rem;
+  }
+  .categorys {
+    margin: 0rem auto;
+  }
+  .header {
+    background: url("../../assets/home/desktop/image-hero.jpg") center center/contain no-repeat;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #191919;
+  }
+  .header .section {
+    width: 100%;
+    max-width: 115.8rem;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: auto;
+    padding: 2.4rem;
+  }
+  .header .new, .header .productName, .header .text {
+    text-align: start;
+  }
+  .header .link:hover {
+    background-color: #FBAF85;
+  }
+  .article {
+    width: 100%;
+    max-width: 115.8rem;
+    margin: auto;
+    padding: 0rem 2.4rem;
+    gap: 4.8rem;
+    margin-top: -3.2rem;
+  }
+  .product1, .product2, .product3 {
+    margin: 0rem;
+  }
+  .product1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    overflow: hidden;
+    padding: 3.35rem 0rem;
+    background-position: -26rem -9rem;
+  }
+  .product1 .product1Info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .product1 .product1Info .productName, .product1 .product1Info .text {
+    text-align: start;
+  }
+  .product1 .product1Info .text {
+    margin: 2.4rem 0rem 4rem 0rem;
+  }
+  .product1 .product1Info .link:hover {
+    background-color: #4C4C4C;
+  }
+  .product2 {
+    background-image: url("../../assets/home/desktop/image-speaker-zx7.jpg");
+    padding-left: 9.5rem;
+  }
+  .product3 {
+    gap: 3rem;
+  }
+  .product3 .container {
+    padding-left: 9.5rem;
+  }
+  .product2 .link:hover, .product3 .link:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */
